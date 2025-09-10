@@ -6,10 +6,15 @@ If your songs are in a different format, you'll have to modify either your file 
 All my song filenames are written as such, and interpreted so in the code:
  
 [YEAR] Artist - Title [timestamp].extension
+
 [YEAR] Artist, Artist - Title RX (Original Artist) [timestamp].extension
+
 i.e.
+
 [1999] Moving Fusion - Atlantis [128].flac
+
 [2000] Bad Company - Atlantis RX (Moving Fusion) [106].wav
+
 [2001] Andy C, Shimon - Firewire [44].mp3
 
 The scripts only recognize FLAC, MP3, and WAV extensions to prevent counting non-music.
